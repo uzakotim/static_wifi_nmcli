@@ -12,8 +12,7 @@ with open('config.json') as config_file:
 command = f'echo {config["ssid"]}'
 commands = [
     f'sudo nmcli radio wifi on',
-    f'sudo nmcli dev wifi connect {config["ssid"]} password {config["password"]}',
-    f'ping google.com',
+    f'sudo nmcli dev wifi connect {config["ssid"]} password {config["password"]}', 
     f'sudo nmcli con up {config["ssid"]}',
     f'sudo nmcli con mod {config["ssid"]} ipv4.addresses {config["ip"]}/24',
     f'sudo nmcli con mod {config["ssid"]} ipv4.gateway {config["gateway"]}',
