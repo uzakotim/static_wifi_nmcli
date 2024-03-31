@@ -1,0 +1,7 @@
+{
+    "password": "enter_your_wifi_password_here",
+    "ssid": "enter_ssid_here",
+    "ip": "enter_your_desired_ip_here",
+    "gateway": "enter_your_desired_gateway_here",
+    "dns": "enter_your_desired_dns_here"
+}

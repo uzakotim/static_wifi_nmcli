@@ -1,9 +1,11 @@
+# IMPORTANT: uncomment the following line:
+# config.json
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
 *$py.class
 
-*.yaml
 # C extensions
 *.so
 
